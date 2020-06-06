@@ -1,2 +1,1 @@
-This is update text from dev to master
-Added 2nd line
+From local to remote
