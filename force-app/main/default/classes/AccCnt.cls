@@ -4,6 +4,7 @@ public class AccCnt {
 	//comments for feature branch
 	//just
 	//one more line
+	//added second line
 integer i;
 string name;
 public string GetName() {
