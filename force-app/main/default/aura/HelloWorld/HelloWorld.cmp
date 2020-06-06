@@ -1,0 +1,5 @@
+<aura:component >
+	<aura:handler name="init" value="{!this}" action="{!c.doInit}"/>
+    <lightning:button aura:id="button1" label="button1"/>
+    
+</aura:component>

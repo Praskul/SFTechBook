@@ -1,0 +1,5 @@
+<apex:page >
+    <h1>
+        Thank you for creating associated records in salesforce. Have a great day!!!
+    </h1> 
+</apex:page>

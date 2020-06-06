@@ -1,0 +1,7 @@
+<apex:page standardController="Faculty__c">
+    <apex:pageBlock >
+    	<apex:pageBlockSection >
+        	{!Faculty__c.name}
+        </apex:pageBlockSection>
+    </apex:pageBlock>
+</apex:page>

@@ -1,0 +1,21 @@
+<apex:page >
+
+<style>
+    .fontstyle{color:blue}
+    .background{background:yellow}
+</style>
+<script>
+
+    window.alert('We are outsideJS');
+
+
+</script>
+
+<apex:pageBlock >
+<apex:outputText styleclass="fontstyle background" value="This is the tset visual force page." />
+</apex:pageBlock>
+<apex:form >
+<apex:commandButton value="Save" onclick="alert"/>
+</apex:form>
+
+</apex:page>

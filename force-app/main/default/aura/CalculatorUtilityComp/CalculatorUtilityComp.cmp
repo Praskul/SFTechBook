@@ -1,0 +1,19 @@
+<aura:component >
+	
+    <aura:attribute name="number1" type="integer" />
+    <aura:attribute name="number2" type="integer" />
+    <aura:attribute name="output" type="integer" />
+    <div class="slds-p-around_medium" >
+    <lightning:input label="Please Enter First Number" name="FirstField" value="{!v.number1}" />
+        <lightning:input label="Please Enter Second Number" name="SecondField" value="{!v.number2}" /><br/>
+       
+    </div>   
+        <lightning:buttonGroup>
+        <lightning:button label="Addition" value="item1" onclick="{!c.addition}" />
+        <lightning:button label="Substraction" value="item2" onclick="{!c.substraction}" />
+        <lightning:button label="Multiplication" value="item3" onclick="{!c.multiplication}" />
+        <lightning:button label="Division" value="item4" onclick="{!c.division}" />
+    </lightning:buttonGroup> <br/><br/>
+    
+    Output value is = {!v.output}
+</aura:component>

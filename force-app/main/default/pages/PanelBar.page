@@ -1,0 +1,22 @@
+<apex:page >
+<apex:tabPanel >
+
+<apex:form >
+<apex:panelBar >
+<apex:panelBarItem label="BarItem1" onenter="alert('You are entering 1st item')" onleave="alert('You are leaving first Item')">First Section Values</apex:panelBarItem>
+<apex:panelBarItem label="BarItem2" onenter="alert('You are entering 2nd item')" onleave="alert('You are leaving second Item')">Second Section Values</apex:panelBarItem>
+<apex:panelBarItem label="BarItem3" onleave="alert('You are leaving third Item')" onenter="alert('You are entering 3rd item')">Third Section Values</apex:panelBarItem>
+</apex:panelBar> <br/><br/><br/>
+
+<apex:panelGrid columns="3" border="2">
+<apex:panelGroup rendered="true" >
+<apex:outputText value=" Output" >One </apex:outputText>
+<apex:outputText value=" Input">Two </apex:outputText>
+</apex:panelGroup>
+<apex:outputText value=" Display">Three </apex:outputText>
+
+
+</apex:panelGrid>
+</apex:form>
+</apex:tabPanel>
+</apex:page>

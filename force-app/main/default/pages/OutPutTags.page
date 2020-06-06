@@ -1,0 +1,15 @@
+<apex:page >
+<apex:form >
+<apex:outputLabel value="Please Enter Name :" for="name"></apex:outputLabel>
+<apex:inputText id="name"/><br/><br/>
+
+<apex:outputLabel value="Please Enter Password:" for="PassworD"></apex:outputLabel>
+<apex:inputSecret id="Password"/><br/><br/>
+
+<apex:outputLabel value="Please Enter Email:" for="email"></apex:outputLabel>
+<apex:inputText id="email"/><br/><br/>
+
+<apex:outputLink value="www.google.com" >Google</apex:outputLink>
+
+</apex:form>
+</apex:page>

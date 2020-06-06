@@ -1,0 +1,14 @@
+<apex:page >
+<apex:form >
+<apex:pageBlock >
+<apex:outputLabel value="Enter name :" for="name"></apex:outputLabel>
+<apex:inputText id="name"/> <br/><br/>
+<apex:outputLabel value="Enter password :" for="password"></apex:outputLabel>
+<apex:inputSecret id="password"/><br/><br/>
+<apex:outputLink value="https://www.youtube.com/watch?v=huZhwUXEndw&list=PLdYQMTciVWO-_J9HB2NB-TApIornE33Sl&index=11">Please click this link</apex:outputLink>
+<apex:pageBlockButtons >
+<apex:commandButton value="Save"/>
+</apex:pageBlockButtons>
+</apex:pageBlock>
+</apex:form>
+</apex:page>

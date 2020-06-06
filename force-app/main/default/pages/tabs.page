@@ -1,0 +1,14 @@
+<apex:page >
+<apex:tabPanel switchType="server">
+
+<apex:tab label="Details" switchType="client">
+It displays only details
+</apex:tab>
+
+<apex:tab label="Summary" switchType="client">
+it displays only summary
+</apex:tab>
+
+
+</apex:tabPanel>
+</apex:page>

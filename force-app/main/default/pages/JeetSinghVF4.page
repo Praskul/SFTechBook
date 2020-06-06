@@ -1,0 +1,23 @@
+<apex:page standardController="Account" recordSetVar="acnt" sidebar="false" >
+    <apex:form >
+        <apex:pageBlock >
+            <apex:pageBlockSection >
+                <apex:pageBlockTable value="{!acnt}" var="a" >
+                    
+                    <apex:column >
+                        <apex:commandLink value="{!a.Name}" reRender="detaildelection">
+                        <apex:param name="accountid" value="{!a.ID}" />
+                            </apex:commandLink>
+                    </apex:column>
+                    <apex:column value="{!a.type}" />
+                    <apex:column value="{!a.industry}" />
+                    <apex:column value="{!a.phone}" />
+                </apex:pageBlockTable>
+                <apex:pageBlock id="detaildelection">
+                    <apex:detail subject="{!$CurrentPage.parameters.accountid}"  relatedList="false" />
+                </apex:pageBlock>
+            </apex:pageBlockSection>
+        </apex:pageBlock>
+        
+    </apex:form>
+</apex:page>

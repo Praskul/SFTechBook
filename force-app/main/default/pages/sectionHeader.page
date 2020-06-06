@@ -1,0 +1,24 @@
+<apex:page standardController="Contact">
+
+<apex:sectionHeader title="FirstPage" subtitle="Page Details" description="This is the section header vf page" help="https://www.facebook.com" rendered="true"/>
+{!20+90+90}
+{!isnull(0 )} <br/>
+{!$User.FirstName} <br/>
+{!$User.LastName} <br/>
+{!$Profile.Name}<br/>
+{!$UserRole.Name}<br/>
+{!$Organization.Name}<br/>
+{!$Api.Session_ID} <br/>
+{!$CurrentPage.parameters.name}<br/>
+{!$CurrentPage.parameters.age}<br/>
+{!$CurrentPage.parameters.status}<br/>
+{!$CurrentPage.parameters.active}
+{!Contact.name}<br/>
+{!contact.department}<br/>
+{!contact.birthdate}<br/>
+
+
+
+
+
+</apex:page>

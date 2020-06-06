@@ -1,0 +1,9 @@
+<aura:component implements="flexipage:availableForRecordHome,force:hasRecordId"  >
+    <div class="slds-p-around_medium">
+	<h1> This is the header text</h1>
+    <p> This is paragraph text</p>
+    <div> This is divisional text</div>
+    <span> This is span text</span>
+        </div>
+		{!v.value}
+</aura:component>

@@ -1,0 +1,5 @@
+<apex:page controller="Wizard" >
+<apex:form >
+    <apex:commandButton value="Save It" action="{!thankyou_page}" />
+</apex:form>
+    </apex:page>

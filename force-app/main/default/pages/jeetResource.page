@@ -1,0 +1,4 @@
+<apex:page >
+    
+    <c:abcd ></c:abcd>
+</apex:page>

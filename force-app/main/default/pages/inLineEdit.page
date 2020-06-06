@@ -1,0 +1,15 @@
+<apex:page standardController="Contact">
+<apex:form >
+
+<apex:inlineEditSupport >
+<apex:outputText value="Enter OutputText"></apex:outputText><br/>
+<apex:outputText >Value of text</apex:outputText><br/>
+<apex:outputText value="{!Contact.name}">{!Contact.birthdate}</apex:outputText><br/>
+<!-- <apex:outputLabel value="Enter output label">{!Contact.name}</apex:outputLabel><br/> -->
+<!--<apex:outputField value="Output field value"/><br/> -->
+<apex:outputField value="{!Contact.name}"/><br/>
+</apex:inlineEditSupport>
+
+
+</apex:form>
+</apex:page>

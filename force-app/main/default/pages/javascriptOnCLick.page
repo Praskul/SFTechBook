@@ -1,0 +1,26 @@
+<apex:page >
+    <apex:form id="form">
+        <apex:inputText title="Please Enter the name" label="Test" id="text" onchange="show()"/>
+
+    </apex:form>
+            <script>
+        	function show(){
+            	var names = document.getElementById('{! $Component.form.text}').value;
+                alert('User name is '+names);
+            }
+                
+            function show2(){
+                var names = document.getElementById('{! $Component.block.forms.blocksection.input}').value;
+                alert('User name is here Mr.Prashantha   '+names);
+
+            }
+        </script>
+    <apex:pageBlock id="block">
+        <apex:form id="forms">
+    	<apex:pageBlockSection id="blocksection">
+            <apex:inputText id="input" onchange="show2()"/>
+        </apex:pageBlockSection>
+            </apex:form>
+    </apex:pageBlock>
+    
+</apex:page>

@@ -1,0 +1,36 @@
+<apex:page >
+<apex:form >
+<apex:pageBlock title="First Block" >
+<apex:selectList size="1" >
+<apex:selectOption itemLabel="-None" itemValue="None"/>
+<apex:selectOption itemLabel="Jan" itemValue="Jan"/>
+<apex:selectOption itemLabel="Feb" itemValue="Feb" itemDisabled="true" />
+<apex:selectOption itemLabel="Mar" itemValue="Mar" rendered="true" />
+</apex:selectList>
+<apex:pageBlockButtons location="top" onclick="alert('You are about to save the record')">
+<apex:commandButton value="Save" action="{!save}"/>
+</apex:pageBlockButtons>
+</apex:pageBlock>
+
+<apex:pageBlock title="Second Block" >
+<apex:selectCheckboxes legendText="CheckList Values"  legendInvisible="false" borderVisible="true" label="Check list" title="CHeckList">
+<apex:selectOption itemLabel="-None" itemValue="None"/>
+<apex:selectOption itemLabel="Jan" itemValue="Jan"/>
+<apex:selectOption itemLabel="Feb" itemValue="Feb" itemDisabled="true" />
+<apex:selectOption itemLabel="Mar" itemValue="Mar" rendered="true" />
+</apex:selectCheckboxes>
+</apex:pageBlock>
+
+
+<apex:pageblock title="Third Block" >
+<apex:selectRadio borderVisible="true"  >
+<apex:selectOption itemLabel="-None" itemValue="None"/>
+<apex:selectOption itemLabel="Jan" itemValue="Jan"/>
+<apex:selectOption itemLabel="Feb" itemValue="Feb" itemDisabled="true" />
+<apex:selectOption itemLabel="Mar" itemValue="Mar" rendered="true" />
+</apex:selectRadio>
+</apex:pageblock>
+
+
+</apex:form>
+</apex:page>

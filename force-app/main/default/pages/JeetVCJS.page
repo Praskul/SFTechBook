@@ -1,0 +1,10 @@
+<apex:page >
+<style>
+    .fontstyle{color:blue}
+</style>
+
+<apex:pageBlock >
+    <apex:outputText styleClass="fontstyle" value="This is the testing field"/>
+</apex:pageBlock>
+
+</apex:page>

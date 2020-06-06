@@ -1,0 +1,27 @@
+<apex:page >
+
+
+This is test page
+<apex:panelGrid columns="2" border="2">
+<apex:outputText value="33"></apex:outputText>
+<apex:outputText value="23"></apex:outputText>
+<apex:outputText value="58"></apex:outputText>
+<apex:outputText value="39"></apex:outputText>
+<apex:outputText value="37"></apex:outputText>
+<apex:outputText value="31"></apex:outputText>
+<apex:panelGroup >
+<apex:outputText value="22"></apex:outputText>
+<apex:outputText value="11"></apex:outputText>
+
+
+</apex:panelGroup>
+
+
+
+
+
+
+
+
+</apex:panelGrid>
+</apex:page>

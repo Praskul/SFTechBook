@@ -1,0 +1,17 @@
+<aura:component >
+	
+    <aura:attribute name="wholeNumber" type="integer" default="22" access="global" description="Enter value here"  />
+    <aura:attribute name="percentage" type="integer" />
+    
+    <div>
+        <lightning:input type="wholeNumber" name="input1" label="Enter a number" value="{!v.wholeNumber}" required="true" />
+        <lightning:input type="percentage" name="input2" label="Enter a percentage" value="{!v.percentage}" description="Enter value here" />
+        <br/><br/>
+       {!v.wholeNumber} of {!v.percentage}
+        <br/>
+        {!mult(v.wholeNumber,v.percentage)}
+        
+       
+    </div>
+    
+</aura:component>

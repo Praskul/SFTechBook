@@ -1,0 +1,44 @@
+<apex:page sidebar="true" showHeader="true" showQuickActionVfHeader="true" >
+<apex:form >
+<h1>This is the header</h1><br/>
+<apex:pageBlock title="First Page Block">
+<apex:pageMessage summary="First block has been created" severity="info" strength="2"></apex:pageMessage>
+<apex:pageBlockSection title="First Page section">
+<apex:pageBlockSectionItem > First item</apex:pageBlockSectionItem>
+<apex:pageBlockSectionItem > Second item</apex:pageBlockSectionItem>
+<apex:pageBlockSectionItem > Second item</apex:pageBlockSectionItem>
+</apex:pageBlockSection>
+
+<apex:pageBlockSection title="Second Page Section">
+<apex:pageBlockSectionItem > First test</apex:pageBlockSectionItem>
+<apex:pageBlockSectionItem > Second test</apex:pageBlockSectionItem>
+<apex:pageBlockSectionItem > Second test</apex:pageBlockSectionItem>
+</apex:pageBlockSection>
+
+<apex:pageBlockButtons >
+<apex:commandButton value="Save"/>
+</apex:pageBlockButtons>
+</apex:pageBlock>
+
+
+<apex:pageBlock title="Second Page Block">
+<apex:pageMessage summary="Second block has been created" severity="info" strength="2"></apex:pageMessage>
+<apex:pageBlockSection title="First Page section">
+<apex:pageBlockSectionItem > First item</apex:pageBlockSectionItem>
+<apex:pageBlockSectionItem > Second item</apex:pageBlockSectionItem>
+<apex:pageBlockSectionItem > Second item</apex:pageBlockSectionItem>
+</apex:pageBlockSection>
+
+<apex:pageBlockSection title="Second Page Section">
+<apex:pageBlockSectionItem > First test</apex:pageBlockSectionItem>
+<apex:pageBlockSectionItem > Second test</apex:pageBlockSectionItem>
+<apex:pageBlockSectionItem > Second test</apex:pageBlockSectionItem>
+</apex:pageBlockSection>
+<apex:pageBlockButtons >
+<apex:commandButton value="OKAY"/>
+<apex:commandButton value="Proceed"/>
+</apex:pageBlockButtons>
+
+</apex:pageBlock>
+</apex:form>
+</apex:page>

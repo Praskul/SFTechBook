@@ -1,0 +1,18 @@
+<apex:page sidebar="false">
+<apex:form >
+<apex:pageBlock >
+<h1> Please fill below mentioned details</h1><br/><br/>
+Enter Name : <apex:inputText id="name"/> <br/><br/>
+<apex:pageMessage summary="You have entered wrong name" severity="warning" strength="2"></apex:pageMessage>
+Enter Age: <apex:inputText id="age"/><br/><br/>
+Set a User Name : <apex:inputText id="user"/><br/><br/>
+Enter Password : <apex:inputsecret id="password"/><br/><br/>
+Cover Letter : <apex:inputtextarea id="letter"/><br/><br/>
+Are you currently an employee ? : <apex:inputcheckbox id="employee"/><br/><br/>
+<apex:pageblockButtons >
+<apex:commandButton value="Save"/>
+<apex:commandButton value="Cancel"/>
+</apex:pageblockButtons>
+</apex:pageBlock>
+</apex:form>
+</apex:page>

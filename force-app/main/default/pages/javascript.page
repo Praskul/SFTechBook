@@ -1,0 +1,13 @@
+<apex:page >
+    <apex:form >
+        <apex:outputLabel >Enter the name</apex:outputLabel>
+    <apex:commandButton value="Click Me" onmouseover="showMessage()"/>
+    <script>
+    	function showMessage(){
+        alert('Hello Prashantha!!!!. How are you');
+        }
+    </script>
+    
+    <apex:outputLabel >Enter the password</apex:outputLabel>
+        </apex:form>
+</apex:page>

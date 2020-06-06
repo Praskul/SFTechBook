@@ -1,0 +1,5 @@
+<apex:component >
+
+    Hi All,
+    This is a new vf comp for testing.
+</apex:component>

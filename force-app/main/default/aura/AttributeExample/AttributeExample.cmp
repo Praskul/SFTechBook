@@ -1,0 +1,16 @@
+<aura:component >
+
+    <aura:attribute name="numberList" type="List" />
+    <aura:attribute name="colorList" type="List" default="['red','black','blue','green']" />
+    
+    <aura:iteration items="{!v.colorList}" var="color" >
+        {!color}<br/>
+    </aura:iteration>
+    
+    <lightning:button name="numbers" label="Click On Me" onclick="{!c.doClick}" />
+    
+    <aura:iteration items="{!v.numberList}" var="num" >
+    	{!num}
+    </aura:iteration>
+    
+</aura:component>

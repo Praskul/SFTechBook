@@ -1,0 +1,16 @@
+<aura:component>
+    <aura:attribute name="CreateContact" type="Contact" default="{
+                                                                   sobjectType : 'Contact',
+                                                                   FirstName : '',
+                                                                   LastName : '',
+                                                                   Phone : '',
+                                                                   Email : ''                     
+                                                                     }" />
+    <div class="slds-p-around_medium" >
+        <lightning:input label="First Name" type="text" value="{!v.CreateContact.FirstName}" required="true"/>
+        <lightning:input label="Last Name" type="text" value="{!v.CreateContact.LastName}" required="true"/>
+        <lightning:input label="Email" type="text" value="{!v.CreateContact.Email}" required="true"/>
+        <lightning:input label="Phone" type="text" value="{!v.CreateContact.Phone}" required="true"/>
+        <lightning:button label="Create Contact" />
+    </div>                                                                 
+</aura:component>

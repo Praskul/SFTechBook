@@ -1,0 +1,23 @@
+<apex:page standardController="Account" >
+    <apex:form >
+        <apex:pageBlock title="Displaying Data">
+            <b>Name :</b> {!account.name}<br/>
+            <b>Type :</b> {!account.type}<br/>
+            <b>Industry :</b> {!account.industry}<br/> 
+        </apex:pageBlock>
+        
+        <apex:pageBlock title="Editing the Data">
+            <b>Name :</b><apex:inputField value="{!account.name}" /><br/>
+            <b>Type :</b><apex:inputField value="{!account.type}" /><br/>
+            <b>Industry :</b><apex:inputField value="{!account.industry}" /><br/>
+        </apex:pageBlock>   
+        
+        <apex:commandButton value="Save" action="{!save}" />
+        <apex:commandButton value="Quick Save" action="{!quicksave}" />
+        <apex:commandButton value="Cancel" action="{!cancel}" />
+        <apex:commandButton value="Delete" action="{!delete}" />
+        <apex:commandButton value="Edit" action="{!edit}" />
+        <apex:commandButton value="Lists" action="{!list}" />
+
+    </apex:form>    
+</apex:page>

@@ -1,0 +1,19 @@
+<aura:component >
+	
+    <aura:attribute name="captains" type="Object[]" default="[{value:'1',label:'Kirk'},
+                                                             {value:'2',label:'Sam'},
+                                                             {value:'3',label:'John'},
+                                                             {value:'',label:'Please choose'}]" /> 
+    
+<lightning:select name="captainId" label="Select your captain" aura:id="cap" value="" onchange="{!c.onCaptChange}">
+    <aura:iteration items="{!v.captains}" var="captain" >
+    <option value="{!captain.label}">{!captain.label}   </option>
+    
+    </aura:iteration>
+    
+    
+    
+    
+    </lightning:select>
+    
+</aura:component>
