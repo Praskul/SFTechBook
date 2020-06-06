@@ -1,5 +1,5 @@
 public class AccCnt {
-//added comments for develop branch
+
 integer i;
 string name;
 public string GetName() {
