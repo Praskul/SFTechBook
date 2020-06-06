@@ -3,6 +3,7 @@ public class AccCnt {
 //added comments for master branch
 	//comments for feature branch
 	//just
+	//one more line
 integer i;
 string name;
 public string GetName() {
