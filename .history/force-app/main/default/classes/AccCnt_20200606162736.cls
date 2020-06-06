@@ -1,8 +1,10 @@
 public class AccCnt {
 //added comments for develop branch
 //added comments for master branch
+<<<<<<< HEAD
+=======
 	//comments for feature branch
-	//just
+>>>>>>> f5574dcd35df3596d350aefa503958deb100558a
 integer i;
 string name;
 public string GetName() {
